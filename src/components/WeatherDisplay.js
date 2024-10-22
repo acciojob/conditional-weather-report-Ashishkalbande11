@@ -1,10 +1,10 @@
 import React from 'react'
 
 const WeatherDisplay = (props) => {
-    const[data] = props;
+    const { data } = props;
 
     const tempStyle = {
-        color : data.temperature > 20 ? "red" : "blue"
+        color: data.temperature > 20 ? "red" : "blue"
     }
   return (
     <div>
